@@ -211,7 +211,7 @@ st.markdown("""
 
 # Sidebar for inputs
 with st.sidebar:
-    st.image("https://img.icons8.com/fluency/96/000000/calculator.png", use_column_width=True)
+    st.image("https://img.icons8.com/fluency/96/000000/calculator.png")
     st.markdown('<h1 class="text-xl font-bold mb-2">VaR Calculator Pro</h1>', unsafe_allow_html=True)
     st.markdown('<p class="text-sm text-gray-600 dark:text-gray-400">Upload positions CSV and set parameters to compute Value at Risk (VaR).</p>', unsafe_allow_html=True)
 
@@ -319,5 +319,4 @@ st.markdown("""
     <div class="mt-8 py-3 text-center text-sm text-gray-500 dark:text-gray-400 fade-in">
         Powered by Streamlit | Optimized for Financial Risk Analysis | Devloped by Sahil
     </div>
-
 """, unsafe_allow_html=True)
