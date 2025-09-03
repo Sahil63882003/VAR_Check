@@ -317,6 +317,7 @@ else:
 # Footer
 st.markdown("""
     <div class="mt-8 py-3 text-center text-sm text-gray-500 dark:text-gray-400 fade-in">
-        Powered by Streamlit | Optimized for Financial Risk Analysis | © 2025
+        Powered by Streamlit | Optimized for Financial Risk Analysis | Devloped by Sahil
     </div>
+
 """, unsafe_allow_html=True)
